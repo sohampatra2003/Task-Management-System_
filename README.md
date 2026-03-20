@@ -25,10 +25,8 @@ task-management/
 cd backend
 npm install
 
-# Copy and fill in your env file
 cp .env.example .env
 
-# Generate Prisma client & run migrations
 npx prisma generate
 npx prisma migrate dev --name init
 
