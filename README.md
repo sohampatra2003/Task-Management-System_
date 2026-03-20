@@ -103,10 +103,10 @@ src/
 cd frontend
 npm install
 
-# Set your API URL
+# API URL
 echo "NEXT_PUBLIC_API_URL=http://localhost:4000" > .env.local
 
-# Start dev server (http://localhost:3000)
+# Dev server starting (http://localhost:3000)
 npm run dev
 ```
 
@@ -149,14 +149,14 @@ src/
 ## Running Both Together
 
 ```bash
-# Terminal 1
+# First Terminal Started
 cd backend && npm run dev
 
-# Terminal 2
+# Second Terminal Started
 cd frontend && npm run dev
 ```
 
-Then open **http://localhost:3000**.
+Then open **http://localhost:4000**.
 
 ---
 
